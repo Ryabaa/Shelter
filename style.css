@@ -75,20 +75,16 @@ a {
   color: #cdcdcd;
 }
 
-.header .nav .nav-links:first-child {
-  height: 25px;
-  color: #fafafa;
-  border-bottom: solid 3px #f1cdb3;
-}
-
 .header .nav .nav-links:not(:first-child) {
   margin-left: 35px;
 }
 
-.hero {
-  background: url(./images/start-screen-gradient-background.png);
-  background-position: center;
-  background-size: cover;
-  height: 900px;
+.header .nav .nav-links:active {
+  color: #fafafa;
+  border-bottom: solid 3px #f1cdb3;
+}
+
+.header .nav .nav-links:hover {
+  color: #fafafa;
 }
 /*# sourceMappingURL=style.css.map */
