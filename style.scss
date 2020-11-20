@@ -11,6 +11,13 @@ a {
 	font-weight: normal;
 }
 
+.title {
+	font-family: Georgia;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 400;
+}
+
 .text {
 	font-family: Arial;
 	font-style: normal;
@@ -20,6 +27,7 @@ a {
 }
 
 .header {
+	width: 100%;
 	background: url(./images/start-screen-gradient-background.png);
 	background-position: top;
 	background-size: cover;
@@ -65,6 +73,71 @@ a {
 		}
 		.nav-links:hover {
 			color: #fafafa;
+		}
+	}
+}
+
+.hero {
+	width: 100%;
+	background: url(./images/start-screen-gradient-background.png);
+	background-position: center;
+	background-size: cover;
+	height: 900px;
+	display: flex;
+	flex-direction: row;
+	.hero-left {
+		width: 40%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.hero-container {
+			height: 316px;
+			width: 460px;
+			.hero-title {
+				width: 310px;
+				color: white;
+				font-size: 44px;
+				line-height: 130%;
+			}
+			.hero-text {
+				width: 460px;
+				margin-top: 40px;
+				color: #cdcdcd;
+			}
+			.hero-link {
+				margin-top: 40px;
+				font-family: Georgia;
+				font-size: 17px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 22px;
+				letter-spacing: 0.06em;
+				color: #292929;
+				width: 120px;
+				height: 25px;
+				background-color: #f1cdb3;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 15px 45px;
+				border-radius: 100px;
+				text-decoration: none;
+			}
+			.hero-link:hover {
+				background-color: #fddcc4;
+			}
+		}
+	}
+	.hero-right {
+		width: 60%;
+		height: 100%;
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+		.hero-image {
+			width: 698px;
+			height: 728px;
 		}
 	}
 }

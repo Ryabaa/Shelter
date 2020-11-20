@@ -11,6 +11,13 @@ a {
   font-weight: normal;
 }
 
+.title {
+  font-family: Georgia;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+}
+
 .text {
   font-family: Arial;
   font-style: normal;
@@ -20,6 +27,7 @@ a {
 }
 
 .header {
+  width: 100%;
   background: url(./images/start-screen-gradient-background.png);
   background-position: top;
   background-size: cover;
@@ -86,5 +94,101 @@ a {
 
 .header .nav .nav-links:hover {
   color: #fafafa;
+}
+
+.hero {
+  width: 100%;
+  background: url(./images/start-screen-gradient-background.png);
+  background-position: center;
+  background-size: cover;
+  height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.hero .hero-left {
+  width: 40%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .hero-left .hero-container {
+  height: 316px;
+  width: 460px;
+}
+
+.hero .hero-left .hero-container .hero-title {
+  width: 310px;
+  color: white;
+  font-size: 44px;
+  line-height: 130%;
+}
+
+.hero .hero-left .hero-container .hero-text {
+  width: 460px;
+  margin-top: 40px;
+  color: #cdcdcd;
+}
+
+.hero .hero-left .hero-container .hero-link {
+  margin-top: 40px;
+  font-family: Georgia;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  color: #292929;
+  width: 120px;
+  height: 25px;
+  background-color: #f1cdb3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 45px;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+.hero .hero-left .hero-container .hero-link:hover {
+  background-color: #fddcc4;
+}
+
+.hero .hero-right {
+  width: 60%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .hero-right .hero-image {
+  width: 698px;
+  height: 728px;
 }
 /*# sourceMappingURL=style.css.map */
