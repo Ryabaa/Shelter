@@ -1,0 +1,94 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+.text {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 160%;
+}
+
+.header {
+  background: url(./images/start-screen-gradient-background.png);
+  background-position: top;
+  background-size: cover;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header .title-subtitle-container {
+  width: 186px;
+  height: 70px;
+  text-align: center;
+  padding: 0 0 0 40px;
+}
+
+.header .title-subtitle-container .header-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 110%;
+  color: #f1cdb3;
+  letter-spacing: 0.06em;
+}
+
+.header .title-subtitle-container .header-subtitle {
+  margin-top: 10px;
+  color: white;
+}
+
+.header .nav {
+  padding: 0 40px 25px 0;
+  width: 443px;
+  height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header .nav .nav-links {
+  text-decoration: none;
+  color: #cdcdcd;
+}
+
+.header .nav .nav-links:first-child {
+  height: 25px;
+  color: #fafafa;
+  border-bottom: solid 3px #f1cdb3;
+}
+
+.header .nav .nav-links:not(:first-child) {
+  margin-left: 35px;
+}
+
+.hero {
+  background: url(./images/start-screen-gradient-background.png);
+  background-position: center;
+  background-size: cover;
+  height: 900px;
+}
+/*# sourceMappingURL=style.css.map */
