@@ -1,3 +1,7 @@
+* {
+	scroll-behavior: smooth;
+}
+
 body,
 h1,
 h2,
@@ -84,6 +88,28 @@ a {
 	}
 }
 
+.link {
+	width: 210px;
+	height: 52px;
+	background-color: #f1cdb3;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100px;
+	text-decoration: none;
+}
+
+.link-text {
+	padding: 15px 45px;
+	font-family: Georgia;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0.06em;
+	color: #292929;
+}
+
 .hero {
 	width: 100%;
 	background: url(./images/start-screen-gradient-background.png);
@@ -114,22 +140,6 @@ a {
 			}
 			.hero-link {
 				margin-top: 40px;
-				font-family: Georgia;
-				font-size: 17px;
-				font-style: normal;
-				font-weight: 400;
-				line-height: 22px;
-				letter-spacing: 0.06em;
-				color: #292929;
-				width: 120px;
-				height: 25px;
-				background-color: #f1cdb3;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				padding: 15px 45px;
-				border-radius: 100px;
-				text-decoration: none;
 			}
 			.hero-link:hover {
 				background-color: #fddcc4;
@@ -188,5 +198,63 @@ a {
 			margin-top: 25px;
 			width: 430px;
 		}
+	}
+}
+
+.pet-card {
+	width: 270px;
+	height: 435px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fafafa;
+	border-radius: 9px;
+	.pet-card:hover {
+		background-color: white;
+	}
+	.pet-image {
+		width: 270px;
+		height: 270px;
+	}
+	.pet-name {
+		margin-top: 30px;
+		font-size: 20px;
+		line-height: 23px;
+		letter-spacing: 0.06em;
+		color: #545454;
+	}
+	.pet-link {
+		margin: 30px 0;
+		width: 195px;
+		height: 52px;
+		background-color: #fafafa;
+		border: 2px solid #f1cdb3;
+		box-sizing: border-box;
+	}
+}
+
+.pets-section {
+	background-color: #f6f6f6;
+	height: 877px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.pets-title {
+		display: flex;
+		width: 400px;
+		padding-top: 80px;
+	}
+	.pets-container {
+		margin-top: 60px;
+		width: 1100px;
+		height: 435px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.pets-link {
+		margin: 60px 0 100px 0;
+		width: 265px;
+		height: 52px;
 	}
 }
