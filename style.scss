@@ -394,6 +394,76 @@ a {
 			line-height: 115%;
 			text-align: center;
 			color: #545454;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+	}
+}
+
+.donation-section {
+	height: 464px;
+	display: flex;
+	flex-direction: row;
+	background-color: #f6f6f6;
+	.donation-left {
+		width: 55%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		.donation-image {
+			width: 505px;
+			height: 261px;
+		}
+	}
+	.donation-right {
+		width: 45%;
+		height: 100%;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		.donation-container {
+			padding-left: 30px;
+			width: 380px;
+			height: 282px;
+			display: flex;
+			flex-direction: column;
+			.donation-title {
+				width: 300px;
+				margin-top: 20px;
+			}
+			.donation-text-big {
+				font-family: Georgia, "Times New Roman", Times, serif;
+				font-size: 15px;
+				line-height: 110%;
+				margin-top: 20px;
+			}
+			.donation-credit {
+				margin-top: 20px;
+				display: flex;
+				justify-content: space-evenly;
+				flex-direction: row;
+				align-items: center;
+				padding: 10px 15px;
+				width: 349px;
+				height: 43px;
+				background: #f1cdb3;
+				border-radius: 9px;
+				.donation-number {
+					font-family: Georgia;
+					font-size: 20px;
+					line-height: 115%;
+					letter-spacing: 0.06em;
+					line-height: 115%;
+					color: #545454;
+				}
+			}
+			.donation-text-small {
+				margin-top: 20px;
+				font-style: italic;
+				font-size: 12px;
+				line-height: 18px;
+				color: #b2b2b2;
+			}
 		}
 	}
 }
