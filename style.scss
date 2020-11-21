@@ -16,6 +16,9 @@ a {
 	font-size: 35px;
 	font-style: normal;
 	font-weight: 400;
+	color: #545454;
+	line-height: 130%;
+	letter-spacing: 0.06em;
 }
 
 .text {
@@ -24,6 +27,7 @@ a {
 	font-weight: normal;
 	font-size: 15px;
 	line-height: 160%;
+	color: #4c4c4c;
 }
 
 .header {
@@ -60,6 +64,9 @@ a {
 		height: 27px;
 		display: flex;
 		flex-direction: row;
+		.nav-text {
+			color: #cdcdcd;
+		}
 		.nav-links {
 			text-decoration: none;
 			color: #cdcdcd;
@@ -95,7 +102,7 @@ a {
 			height: 316px;
 			width: 460px;
 			.hero-title {
-				width: 310px;
+				width: 350px;
 				color: white;
 				font-size: 44px;
 				line-height: 130%;
@@ -138,6 +145,48 @@ a {
 		.hero-image {
 			width: 698px;
 			height: 728px;
+		}
+	}
+}
+
+.main {
+	width: auto;
+}
+
+.about-section {
+	height: 588px;
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	.about-left {
+		width: 40%;
+		height: 100%;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		.about-image {
+			width: 300px;
+			height: 408px;
+		}
+	}
+	.about-right {
+		width: 60%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.about-container {
+		width: 430px;
+		height: 380px;
+		display: flex;
+		flex-direction: column;
+		.about-title {
+			width: 370px;
+		}
+		.about-text {
+			margin-top: 25px;
+			width: 430px;
 		}
 	}
 }
