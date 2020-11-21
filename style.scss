@@ -258,3 +258,142 @@ a {
 		height: 52px;
 	}
 }
+
+.help-section {
+	height: 611px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	.help-title {
+		margin-top: 80px;
+		width: 310px;
+		text-align: center;
+	}
+	.help-container {
+		width: 1100px;
+		height: 280px;
+		margin-top: 60px;
+		display: flex;
+		flex-flow: row wrap;
+		padding-bottom: 100px;
+		justify-content: center;
+		.help-card-first {
+			width: 82px;
+			height: 113px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			.help-card-image-first {
+				width: 47.86px;
+				height: 60px;
+			}
+		}
+		.help-card-second {
+			width: 150px;
+			height: 113px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			.help-card-image-second {
+				width: 59.95px;
+				height: 60px;
+			}
+		}
+		.help-card-third {
+			width: 60px;
+			height: 113px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			.help-card-image-third {
+				width: 60px;
+				height: 60px;
+			}
+		}
+		.help-card-fourth {
+			width: 153px;
+			height: 113px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			.help-card-image-fourth {
+				width: 60px;
+				height: 56.82px;
+			}
+		}
+		.help-card-fifth {
+			width: 101px;
+			height: 113px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			.help-card-image-fifth {
+				width: 31.3px;
+				height: 60px;
+			}
+		}
+		.help-card-sixth {
+			width: 89px;
+			height: 113px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			.help-card-image-sixth {
+				width: 60px;
+				height: 54.16px;
+			}
+		}
+		.help-card-seventh {
+			width: 101px;
+			height: 113px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			.help-card-image-seventh {
+				width: 60px;
+				height: 60px;
+			}
+		}
+		.help-card-eighth {
+			width: 165px;
+			height: 113px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			.help-card-image-eighth {
+				width: 60px;
+				height: 42.53px;
+			}
+		}
+		.help-card-ninth {
+			width: 143px;
+			height: 113px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			margin-right: 120px;
+			.help-card-image-ninth {
+				width: 59.29px;
+				height: 60px;
+			}
+		}
+		.help-card:not(:first-child) {
+			margin-left: 120px;
+		}
+		.help-card-text {
+			font-size: 20px;
+			line-height: 115%;
+			text-align: center;
+			color: #545454;
+		}
+	}
+}

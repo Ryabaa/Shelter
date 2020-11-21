@@ -368,4 +368,260 @@ a {
   width: 265px;
   height: 52px;
 }
+
+.help-section {
+  height: 611px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.help-section .help-title {
+  margin-top: 80px;
+  width: 310px;
+  text-align: center;
+}
+
+.help-section .help-container {
+  width: 1100px;
+  height: 280px;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding-bottom: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.help-section .help-container .help-card-first {
+  width: 82px;
+  height: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.help-section .help-container .help-card-first .help-card-image-first {
+  width: 47.86px;
+  height: 60px;
+}
+
+.help-section .help-container .help-card-second {
+  width: 150px;
+  height: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.help-section .help-container .help-card-second .help-card-image-second {
+  width: 59.95px;
+  height: 60px;
+}
+
+.help-section .help-container .help-card-third {
+  width: 60px;
+  height: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.help-section .help-container .help-card-third .help-card-image-third {
+  width: 60px;
+  height: 60px;
+}
+
+.help-section .help-container .help-card-fourth {
+  width: 153px;
+  height: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.help-section .help-container .help-card-fourth .help-card-image-fourth {
+  width: 60px;
+  height: 56.82px;
+}
+
+.help-section .help-container .help-card-fifth {
+  width: 101px;
+  height: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.help-section .help-container .help-card-fifth .help-card-image-fifth {
+  width: 31.3px;
+  height: 60px;
+}
+
+.help-section .help-container .help-card-sixth {
+  width: 89px;
+  height: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.help-section .help-container .help-card-sixth .help-card-image-sixth {
+  width: 60px;
+  height: 54.16px;
+}
+
+.help-section .help-container .help-card-seventh {
+  width: 101px;
+  height: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.help-section .help-container .help-card-seventh .help-card-image-seventh {
+  width: 60px;
+  height: 60px;
+}
+
+.help-section .help-container .help-card-eighth {
+  width: 165px;
+  height: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.help-section .help-container .help-card-eighth .help-card-image-eighth {
+  width: 60px;
+  height: 42.53px;
+}
+
+.help-section .help-container .help-card-ninth {
+  width: 143px;
+  height: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 120px;
+}
+
+.help-section .help-container .help-card-ninth .help-card-image-ninth {
+  width: 59.29px;
+  height: 60px;
+}
+
+.help-section .help-container .help-card:not(:first-child) {
+  margin-left: 120px;
+}
+
+.help-section .help-container .help-card-text {
+  font-size: 20px;
+  line-height: 115%;
+  text-align: center;
+  color: #545454;
+}
 /*# sourceMappingURL=style.css.map */
