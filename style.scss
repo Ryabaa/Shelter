@@ -429,7 +429,6 @@ a {
 			flex-direction: column;
 			.donation-title {
 				width: 300px;
-				margin-top: 20px;
 			}
 			.donation-text-big {
 				font-family: Georgia, "Times New Roman", Times, serif;
@@ -464,6 +463,93 @@ a {
 				line-height: 18px;
 				color: #b2b2b2;
 			}
+		}
+	}
+}
+
+.footer {
+	height: 350px;
+	display: flex;
+	flex-direction: row;
+	background-image: url(./images/footer-gradient-background.png);
+	background-size: cover;
+	.footer-left {
+		width: 68%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		.footer-container {
+			display: flex;
+			flex-direction: column;
+			.footer-title {
+				color: white;
+			}
+			.footer-info-container {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				.footer-text {
+					font-family: Georgia, "Times New Roman", Times, serif;
+					font-size: 20px;
+					line-height: 115%;
+					letter-spacing: 0.06em;
+					color: #f1cdb3;
+					margin-left: 20px;
+				}
+			}
+		}
+		.footer-left-container {
+			width: 280px;
+			height: 234px;
+			.footer-mail-container {
+				margin-top: 40px;
+				width: 251px;
+				height: 32px;
+				.footer-mail-image {
+					width: 40px;
+					height: 26px;
+				}
+			}
+			.footer-phone-container {
+				margin-top: 40px;
+				width: 240px;
+				height: 32px;
+				.footer-phone-image {
+					width: 40px;
+					height: 32px;
+				}
+			}
+		}
+		.footer-right-container {
+			width: 302px;
+			height: 234px;
+			.footer-gps-first-container {
+				margin-top: 34px;
+				width: 300px;
+				height: 46px;
+				.footer-gps-image {
+					width: 22px;
+					height: 32px;
+				}
+			}
+			.footer-gps-second-container {
+				margin-top: 32px;
+				width: 302px;
+				height: 32px;
+			}
+		}
+	}
+	.footer-right {
+		width: 32%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		.footer-image {
+			width: 300px;
+			height: 310px;
 		}
 	}
 }
