@@ -35,7 +35,6 @@ a {
 }
 
 .header {
-  width: 100%;
   background: url(./images/start-screen-gradient-background.png);
   background-position: top;
   background-size: cover;
@@ -137,11 +136,10 @@ a {
 }
 
 .hero {
-  width: 100%;
   background: url(./images/start-screen-gradient-background.png);
   background-position: center;
   background-size: cover;
-  height: 900px;
+  height: 782px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
