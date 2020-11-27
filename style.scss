@@ -244,7 +244,8 @@ a {
 	align-items: center;
 	.pets-title {
 		display: flex;
-		width: 400px;
+		width: 349px;
+		text-align: center;
 		padding-top: 80px;
 	}
 	.pets-container {
@@ -639,6 +640,113 @@ a {
 		.footer-right {
 			width: 50%;
 			height: 100%;
+		}
+	}
+}
+
+@media (max-width: 850px) {
+	.header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.title-subtitle-container {
+			padding: 0;
+		}
+		.nav {
+			padding: 0;
+			justify-self: flex-end;
+		}
+	}
+	.hero {
+		height: 450px;
+		.hero-left {
+			display: flex;
+			justify-content: center;
+			width: 55%;
+			.hero-container {
+				width: 320px;
+				height: auto;
+				.hero-title {
+					width: 320px;
+					font-size: 33px;
+				}
+				.hero-text {
+					width: 320px;
+					margin-top: 15px;
+				}
+			}
+		}
+		.hero-right {
+			width: 45%;
+			display: flex;
+			justify-content: flex-end;
+			.hero-image {
+				width: 320px;
+				height: 360px;
+			}
+		}
+	}
+	.about-section {
+		.about-left {
+			.about-image {
+				width: 250px;
+				height: 358px;
+			}
+		}
+		.about-right {
+			display: flex;
+			justify-content: flex-end;
+			.about-container {
+				width: 350px;
+				height: auto;
+				margin-right: 10px;
+				.about-title {
+					width: 350px;
+				}
+				.about-text {
+					width: 350px;
+				}
+			}
+		}
+	}
+	.pets-section {
+		height: auto;
+		.pets-container {
+			height: auto;
+			width: unset;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+	.pet-card:not(:first-child) {
+		margin-left: 0;
+	}
+	.help-section {
+		height: auto;
+		.help-container {
+			.help-card:not(:first-child) {
+				margin: 30px 0 0 20px;
+			}
+		}
+	}
+	.donation-section {
+		height: 550px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.donation-left {
+			width: auto;
+			.donation-image {
+				width: 380px;
+				height: 185px;
+			}
+		}
+		.donation-right {
+			width: auto;
+			.donation-container {
+				padding: 0 0 50px 0;
+			}
 		}
 	}
 }
