@@ -323,6 +323,10 @@ a {
           box-sizing: border-box;
 }
 
+.pet-card:not(:first-child) {
+  margin-left: 90px;
+}
+
 .pets-section {
   background-color: #f6f6f6;
   height: 877px;
@@ -357,9 +361,9 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .pets-section .pets-link {
@@ -865,5 +869,103 @@ a {
 .footer .footer-right .footer-image {
   width: 300px;
   height: 310px;
+}
+
+/*--------------------@Media-----------------------*/
+@media (max-width: 1200px) {
+  .hero {
+    height: 600px;
+  }
+  .hero .hero-left {
+    width: 50%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero .hero-left .hero-container {
+    width: 410px;
+    height: 318px;
+  }
+  .hero .hero-left .hero-container .hero-title {
+    width: 410px;
+  }
+  .hero .hero-left .hero-container .hero-text {
+    width: 410px;
+  }
+  .hero .hero-right {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .hero .hero-right .hero-image {
+    width: 428px;
+    height: 488px;
+  }
+  .pets-section .pets-container {
+    width: 100%;
+  }
+  .pet-card:not(:first-child) {
+    margin-left: 20px;
+  }
+  .help-section {
+    height: auto;
+  }
+  .help-section .help-container {
+    width: 100%;
+  }
+  .help-section .help-container .help-card:not(:first-child) {
+    margin-left: 58px;
+  }
+  .help-section .help-container .help-card {
+    margin-top: 20px;
+  }
+  .help-section .help-container .help-card-ninth {
+    margin-right: 58px;
+  }
+  .donation-section .donation-left {
+    width: 50%;
+  }
+  .donation-section .donation-left .donation-image {
+    width: 405px;
+    height: 210px;
+  }
+  .donation-section .donation-right {
+    width: 50%;
+  }
+  .footer {
+    height: 540px;
+  }
+  .footer .footer-left {
+    width: 50%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+  }
+  .footer .footer-left .footer-left-container {
+    padding: 5px 0 60px 0;
+  }
+  .footer .footer-right {
+    width: 50%;
+    height: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
