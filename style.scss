@@ -764,7 +764,7 @@ a {
 				}
 			}
 			.nav {
-				margin: 25px 0;
+				margin: 50px 0;
 				width: 120px;
 				height: auto;
 				display: unset;
@@ -795,6 +795,9 @@ a {
 				justify-content: center;
 			}
 		}
+	}
+	.link-text {
+		font-size: 15px;
 	}
 	.about-section {
 		height: auto;
